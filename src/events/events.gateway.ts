@@ -9,7 +9,7 @@ import { SHA1 } from 'crypto-js';
 
 
 @Injectable()
-@WebSocketGateway({
+@WebSocketGateway(3001,{
     cors: {
         origin: '*',
     },
