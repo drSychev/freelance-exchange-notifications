@@ -33,7 +33,5 @@ export class EventsGateway implements OnGatewayConnection {
         } else {
             client.join(userId);
         }
-
-        console.log(userId, has.toString(), hash);
     }
 }

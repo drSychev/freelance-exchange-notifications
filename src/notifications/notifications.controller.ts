@@ -9,6 +9,5 @@ export class NotificationsController {
   @Post('send')
   async send(@Body() sendNotificationDto: SendNotificationDto) {
     this.notificationsService.send(sendNotificationDto);
-    console.log(sendNotificationDto);
   }
 }
